@@ -1,3 +1,11 @@
+/*
+Autor: Brayan Bernal
+Curso: 30 Days of Javascript
+Tema: Day 01 - Introduction of JavaScript
+Date: 09/06/2023
+
+*/ 
+
 // Declaring different variables of different data types
 let firstName = 'Asabeneh' // first name of a person
 let lastName = 'Yetayeh' // last name of a person
