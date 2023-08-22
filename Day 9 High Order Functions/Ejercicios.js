@@ -155,3 +155,4 @@ function mostPopulatedCountries(data, imp){
 }
 
 mostPopulatedCountries(countries_data, 10)
+

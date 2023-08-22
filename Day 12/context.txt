@@ -1,0 +1,26 @@
+30 Days Of JavaScript: Regular Expressions
+
+
+Las expresiones regulares en Python y JavaScript son conceptos similares en términos de su funcionalidad básica para trabajar con patrones de texto en cadenas, pero también tienen algunas diferencias en cuanto a sintaxis y características específicas. Aquí hay una comparación de similitudes y diferencias:
+
+Similitudes:
+
+Funcionalidad Básica: Tanto en Python como en JavaScript, las expresiones regulares permiten realizar búsquedas, reemplazos y manipulaciones avanzadas en cadenas de texto utilizando patrones específicos.
+
+Sintaxis Básica: Los fundamentos de cómo se definen los patrones de expresiones regulares son similares en ambos lenguajes. Por ejemplo, \d representa un dígito en ambos lenguajes.
+
+Metacaracteres: La mayoría de los metacaracteres comunes, como . (cualquier carácter), * (cero o más repeticiones) y + (una o más repeticiones), funcionan de manera similar en ambos lenguajes.
+
+Funciones y Métodos: Ambos lenguajes ofrecen funciones y métodos incorporados para trabajar con expresiones regulares, como search(), match(), findall(), sub() (para reemplazo) y más.
+
+Diferencias:
+
+Sintaxis de Patrones: Aunque los fundamentos son similares, hay algunas diferencias en la sintaxis de patrones entre los dos lenguajes. Por ejemplo, la forma en que se utiliza r al comienzo de una cadena de expresión regular en Python para indicar una cadena cruda y evitar el escape de caracteres, no es necesario en JavaScript.
+
+Escape de Caracteres en Strings: En JavaScript, las barras diagonales inversas (\) deben escaparse dentro de las cadenas regulares, mientras que en Python, si estás utilizando una cadena cruda (prefijada con r), no es necesario escaparlas.
+
+Comportamiento por Defecto: En JavaScript, las expresiones regulares son "globales" por defecto, lo que significa que buscan todas las coincidencias en una cadena. En Python, necesitas especificar la bandera re.MULTILINE para lograr un comportamiento similar.
+
+Banderas: Las banderas para modificar el comportamiento de las expresiones regulares varían entre los dos lenguajes. Por ejemplo, en Python, puedes usar re.IGNORECASE para hacer coincidencias sin distinción entre mayúsculas y minúsculas.
+
+En general, si ya tienes experiencia con expresiones regulares en un lenguaje, encontrarás que los conceptos básicos son transferibles a otros lenguajes. Sin embargo, las diferencias en la sintaxis y en las características específicas pueden requerir un ajuste y aprendizaje adicional al cambiar de un lenguaje a otro.
