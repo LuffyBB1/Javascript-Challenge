@@ -215,19 +215,40 @@ function generateRandomId(length) {
   }
 
 
-if(SingUp(people, prompt())){
-    console.log('You\'r registered' )
-}else {
-        console.log('Please SingUp')
-        let user={}
-        user._id=generateRandomId(5);
-        user.username=prompt('user');
-        user.email=prompt('mail');
-        user.password=prompt('password');
-        user.createdAt=new Date().getDate;
-        user.isLoggedIn=true;
-        people.push(user)
 
-    }
 console.log(people)
 
+const myName='Brayan'
+const myEmployeed={
+  Brayan:{
+    area: 'Analitica y desarrollo',
+    salario: 2200000,
+    skills:['Java','Javascript','Pyhton', 'Django', 'Postgresql']
+    },
+  Angel:{
+    area:'Analitica y desarrollo',
+    salario:1400000,
+    skills:['Java','Javascript', 'Django', 'Postgresql']
+  }
+}
+
+const myFunct = (obs) => {
+  let mayor=0, name;
+    for (let key in obs){
+      if(obs[key].salario>mayor){
+        mayor = obs[key].salario;
+        name = key;
+      }
+    }
+    return name
+}
+
+const myPru=(objeto) => {
+
+  const masSalario=Object.keys(objeto).reduce((personA, personB) =>
+    objeto[personA].salario > objeto[personB].salario ? personA : personB
+  ); 
+    return `La persona con más salario es ${masSalario}`;
+  }
+
+console.log(myPru(myEmployeed))
