@@ -25,6 +25,10 @@ const products = [
 function callback(item){
     return console.log(item)
 }
+for (let item in products){
+    console.log('mi priceeee');
+    console.log(item)
+}
 numbers.forEach((item) => {
     console.log(item)
 })

@@ -20,3 +20,6 @@ console.log(innerFuncs.plusOne)
 console.log(innerFuncs.minusOne)
 
 
+const mysplit='Mínimo producto viable, en el menor tiempo posible'
+console.log(mysplit.split(' '))
+
