@@ -21,5 +21,11 @@ console.log(innerFuncs.minusOne)
 
 
 const mysplit='Mínimo producto viable, en el menor tiempo posible'
+const subjectWords = mysplit.split(' ')
+const spam=[]
+subjectWords.forEach(word => {
+    
+});
 console.log(mysplit.split(' '))
+
 
